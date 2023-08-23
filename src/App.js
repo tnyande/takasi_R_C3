@@ -5,8 +5,11 @@ function App() {
   return (
     <div className="App">
       <h1>
-      I am Takasi Nyande, this is my first React application.
+        Hello World
       </h1>
+      <p>
+      I am Takasi Nyande, this is my first React application.
+      </p>
       
     </div>
   );
