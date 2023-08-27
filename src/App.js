@@ -1,15 +1,16 @@
-import logo from './logo.svg';
+import User from './components/User';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Hello World
-      </h1>
-      <p>
-      I am Takasi Nyande, this is my first React application.
-      </p>
+      
+      <User 
+      name="Takasi Nyande"
+      uni="Coventry University"
+      profession="Fullstack Developer"
+      skills="HTML, CSS, Bootstrap, JQuery, MongoDB, JavaScript, React"
+      />
       
     </div>
   );
